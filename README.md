@@ -1,10 +1,10 @@
-### Пин-пад - S300. На операцию пин-пад никак не среагировал
-### Драйвер падает с ошибкой
+### PIN pad: PAX S300. The PIN pad did not react to the operation at all
+### The driver crashes with an error
 ```
 Attempt to invoke virtual method 'int java.lang.String.hashCode()' on a null object reference
 ```
-![Лог](hashpan_not_working.jpeg "Лог")
-### Лог
+![Log](hashpan_not_working.jpeg "Log")
+### Log
 ```
 2024-02-09 22:13:17.640  1161-1205  DisplayPowerState       system_server                        D  Screen ready
 2024-02-09 22:13:17.642  9628-9628  InpasExample            ru.mars_groupe.sber_upos_example     D  onServiceConnected(name = ComponentInfo{ru.inpas.posdriver.pax/ru.inpas.connectorevotor.POSService}, service = android.os.BinderProxy@7b31396)
